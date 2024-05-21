@@ -1,0 +1,170 @@
+header{
+    background-color :blanchedalmond;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);;
+    margin: auto;
+    z-index: 1;
+}
+
+
+
+.body{
+    
+    background-color :brown;
+    background-size: cover; /* Chỉnh kích thước hình ảnh để nó che phủ hoàn toàn phần tử */
+    height: 1920px; /* Chiều cao của phần tử */
+    color: white; /* Màu chữ trắng để tương phản với hình ảnh */
+    text-align: center; /* Căn giữa nội dung */
+    padding: 50px; /* Khoảng cách nội dung với viền của phần tử */
+    
+}
+.btn{
+    font-weight: bold; 
+    font-size: 10px
+}
+.content{
+    margin-top: 0px;
+    width: 80%;
+    background-color: white;
+    
+}
+
+section{
+    background-color: brown;    
+    height: 1920px;
+}
+
+.div-center{
+    margin: auto;
+ 
+}
+
+.btn-nav{
+    font-size: 10px;
+}
+
+.dashed{
+    border: 1px dashed grey;
+    margin: 5px;
+    
+}
+.liner{
+    border: 3px dashed red;
+
+}
+
+.navbar{
+    width: 75%;
+    margin: auto;
+    font-size: 13px;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-decoration:solid;
+    
+}
+
+.search-bar {
+  
+  max-width: 30px;
+  right: 0;
+  bottom: 2px;
+  margin-right: 2px;
+  }
+  
+
+  .search-input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+  }
+
+  .search-button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .search-button:hover {
+    background-color: #45a049;
+  }
+
+  a[href] {
+    text-decoration: none;
+  }
+
+  .text-menu{
+    color: black;
+  }
+
+  .text-menu:hover {
+    color: red;
+  }
+  
+  .text-menu-header-1{
+    color: yellow;
+  }
+  .text-menu-header-1:hover {
+    color: aliceblue;
+  }
+  .text-menu-header-2{
+    color: white;
+    font-size: 10px
+  }
+  .text-menu-header-2:hover{
+    color: yellow;
+  }
+
+  .img-corner{
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+.img-corner:hover{
+  transform: scale(1.1);
+}
+
+.ngat{
+  width: 100%;
+    margin-bottom: 15px;
+    border-bottom: 2px solid red;
+    position: relative;
+}
+
+
+
+.ngat a:hover{
+  color: #337ab7;;
+}
+
+.ngat img{
+  position: absolute;
+    max-width: 30px;
+    right: 0;
+    bottom: 2px;
+    margin-right: 2px;
+}
+.ngat h2{
+  margin-left: 10px;
+  cursor: pointer;
+  color: red;
+}
+
+.ngat h2:hover{
+  color: #337ab7;
+}
+.button{
+  background-color: #f2f2f2; /* Màu nền của nút */
+        padding: 10px 20px;
+        border: none; /* Loại bỏ viền */
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.1); /* Bóng đổ nhẹ */
+}
+
+.dashed-last{
+  margin-top: 5px;
+  border: 1px dashed grey;
+  margin: 5px;
+}
